@@ -9,7 +9,7 @@ services:
     name: taskflow
     runtime: node
     plan: free
-    buildCommand: npm ci && npm run build -w apps/web && npm run build -w apps/api && npx prisma migrate deploy --schema apps/api/prisma/schema.prisma && npm run seed -w apps/api
+    buildCommand: npm ci --include=dev && npm run build -w apps/web && npm run build -w apps/api && npx prisma migrate deploy --schema apps/api/prisma/schema.prisma && npm run seed -w apps/api
     startCommand: npm start -w apps/api
     healthCheckPath: /api/health
     envVars:
