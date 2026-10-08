@@ -6,7 +6,7 @@ React (Vite) web app, Expo React Native Android app, Express REST API, PostgreSQ
 | | URL |
 |---|---|
 | Web + API (Render, one service) | https://taskflow-jwua.onrender.com (API health: /api/health) |
-| Android APK (EAS) | _add EAS build link after `eas build`_ |
+| Android APK (EAS build) | https://expo.dev/accounts/lolzzz1172/projects/taskflow/builds/d98d3705-f0df-4c9f-9d06-919b6044c78f |
 | Database | Render PostgreSQL |
 
 ## Repo layout

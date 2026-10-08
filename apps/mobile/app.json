@@ -19,6 +19,12 @@
     "plugins": [
       "expo-secure-store",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8238f9a7-0284-4c11-9d26-837baa1bd714"
+      }
+    },
+    "owner": "lolzzz1172"
   }
 }
